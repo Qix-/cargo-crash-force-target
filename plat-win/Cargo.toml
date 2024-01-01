@@ -1,0 +1,9 @@
+cargo-features = ["per-package-target"]
+
+[package]
+name = "plat-win"
+version = "0.0.0"
+forced-target = "x86_64-pc-windows-gnu"
+
+[dependencies]
+corelib = { path = "../corelib" }
